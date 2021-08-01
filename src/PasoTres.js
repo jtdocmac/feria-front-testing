@@ -27,8 +27,6 @@ function PasoTres({state}){
             <Card.Subtitle className="mb-2-text-muted">{state.categoria}</Card.Subtitle>
             <Card.Title className="titulo">Marca</Card.Title>
             <Card.Subtitle className="mb-2-text-muted">{state.marca}</Card.Subtitle>
-            <Card.Title className="titulo">Modelo</Card.Title>
-            <Card.Subtitle className="mb-2-text-muted">{state.modelo}</Card.Subtitle>
             <Card.Title className="titulo">Estado</Card.Title>
             <Card.Subtitle className="mb-2-text-muted">{state.estado}</Card.Subtitle>
             <Card.Title className="titulo">Descripción</Card.Title>
