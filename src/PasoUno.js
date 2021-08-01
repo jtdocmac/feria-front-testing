@@ -16,7 +16,6 @@ function PasoUno(){
         nombre: "",
         categoria: "",
         marca: "",
-        modelo: "",
         estado: "",
         descripcion: "",
         precio:""
@@ -85,11 +84,6 @@ function PasoUno(){
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label className="mb-3-title-ficha">Marca</Form.Label>
                             <Form.Control value={state.marca} onChange={handleChange} name="marca" className="mb-3-form" type="text" />
-                        </Form.Group>
-
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className="mb-3-title-ficha">Modelo</Form.Label>
-                            <Form.Control value={state.modelo} onChange={handleChange} name="modelo" className="mb-3-form" type="text" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicSelect">
