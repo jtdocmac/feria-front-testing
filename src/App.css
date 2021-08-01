@@ -1,0 +1,427 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  display: block;
+  width:255px;
+  height: 48px;
+  margin-left: 192px;
+  margin-top: 50px;
+
+}
+
+.PasoUno {
+  position: relative;
+  margin-left: -64px;
+  
+}
+.infosugerencia2{
+  position:absolute;
+  left: 315px;
+  bottom: 300px;
+  width: 286px;
+  height: 170px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #F2C837;
+  z-index: 2;
+}
+
+.photoph{
+  display:inline;
+  margin-top: 75px;
+  width: 53px;
+  height: 47px;
+}
+
+.photores{
+  display:inline;
+  margin-top: 75px;
+  width: 53px;
+  height: 47px;
+  margin-left: 1px;
+}
+
+.tickph{
+  display:flex;
+  width: 100px;
+  height: 100px;
+  margin-top: 320px;
+  margin-left: 150px;
+}
+
+.subeuna{
+  color:black;
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.labelphotores{
+  color:black;
+  font-size: 20px;
+  margin-top: 85px;
+
+}
+
+
+.photoholder{
+  position:relative;
+  width: 294px;
+  height: 200px;
+  background-color: #777777;
+  border-radius: 5px;
+  margin-left:-1px;
+  margin-top: -1px;
+
+}
+
+.Uploader {
+  position:relative;
+  width: 294px;
+  height: 303px;
+  left: 300px;
+  bottom: 504px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+.PhotoResumen {
+  position:relative;
+  margin-top: 230px;
+  width: 294px;
+  height: 250px;
+  left: 485px;
+  bottom: 614px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+.fileinput {
+  position: relative;
+  background-color: white;
+  border-color: #6C757D;
+  border-style: solid;
+  border-width: 1px;
+  top: 33px;
+  left: 85px;
+  width: 91px;
+  height: 31px;
+  font-size: 16px;
+  color: #6C757D;
+  border-radius: 3px;
+  
+
+}
+
+.file {
+	position: relative;
+	text-align: right;
+	opacity: 0;
+	z-index: 2;
+  width: 91px;
+  font-size: 16px;
+  top: -27px;
+  left: -7px;
+
+}
+
+.sugerir{
+  position:relative;
+  bottom: 35px;
+  left: 53px;
+  color:white;
+  background-color: #FFD23A !important;
+  border-color: #FFD23A !important;
+  width: 100px !important;
+
+}
+
+.mensajesugerencia1{
+  display:flex;
+  color: #31C126;
+  left: -100px;
+  font-size: 14px;
+}
+.mensajesugerencia2{
+  position: absolute;
+  color: #3A92FF;
+  font-weight: 700;
+  top: 440px;
+  font-size: 22px;
+}
+
+.mensajesugerencia3{
+  display:flex;
+  color: red;
+  font-size: 14px;
+}
+
+.prodsimilares{
+  display:flex;
+  position:relative;
+  top: 80px;
+
+}
+
+.linksimilares{
+  display:inline;
+  position:relative;
+  top: 80px;
+  text-align: left;
+  font-size: 13px;
+  width: 420px;
+
+}
+
+.infosugerencia{
+  position:relative;
+  left: 215px;
+  bottom: 120px;
+  width: 284px;
+  height: 149px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #F2C837;
+  z-index: 2;
+
+}
+.volver{
+  display:flex;
+  position: relative;
+  left: -186px;
+  
+}
+
+.volverf{
+  background-color: #3A92FF !important;
+}
+
+
+.volver3{
+  display: flex;
+  position:relative;
+  right: 183px;
+  bottom: 490px;
+}
+
+.publicar{
+  margin-left: 625px;
+}
+
+.resumenprecio{
+  position: relative;
+  bottom: 585px;
+  left: 710px;
+}
+
+
+
+.textoinfo{
+  position: relative;
+  font-size: 16px;
+  color: #8C929B;
+  margin-top: 11px;
+  text-align:justify;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+
+
+}
+
+.paso {
+  display: flex;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  color: #3A92FF;
+  margin-top: 147px;
+  margin-left: -186px;
+}
+
+.form-def{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mb-3 {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-left: -270px;
+  width: 391px;
+}
+
+.resumen{
+  display: inline;
+  position:relative;
+  top: 25px;
+  right: 185px;
+
+}
+
+.titulo{
+  display: flex;
+  color: black;
+  font-size: 22px !important;
+  margin-top: 25px;
+
+}
+
+.titulopub{
+  display: flex;
+  color: black;
+  font-size: 22px !important;
+  margin-top: 20px;
+  margin-left: 97px;
+
+}
+
+.precioform{
+  margin-right: 184px;
+  height: 500px;
+
+
+}
+
+.linkripley{
+  display:flex;
+  margin-top: 5px;
+
+}
+
+.mb-2-text-muted{
+  display: flex;
+  color: #343A40 !important;
+  font-size: 18px !important;
+  font-family: 'Helvetica', sans-serif;
+  width: 420px;
+  text-align: left;
+}
+
+.mb-3-precio {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-left: -285px;
+  margin-top: 145px;
+  width: 330px;
+}
+
+.primercontinuar{
+  position: relative;
+  right: -400px;
+  bottom: 369px;
+}
+
+.continuar2{
+  position: relative;
+  top: 317px;
+  right: 90px;
+
+}
+
+.mb-3-title-precio {
+  display: block;
+  margin-left: -280px;
+}
+
+.mb-3-title {
+  display: block;
+  margin-left: -242px;
+}
+
+
+.mb-3-title-categoria {
+  display: block;
+  margin-left: -320px;
+  
+}
+
+.mb-3-title-ficha {
+  display: block;
+  margin-left: -345px;
+}
+
+.mb-3-title-estado {
+  display: block;
+  margin-left: -340px;
+}
+
+.mb-3-title-desc {
+  display: block;
+  margin-left: -305px;
+}
+
+.mb-3-form {
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #E0E0E0;
+  border-style: solid;
+  font-size: 16px;
+}
+
+.mb-3-form-select {
+  height: 35px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #E0E0E0;
+  border-style: solid;
+}
+
+.mb-3-form-ficha {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #E0E0E0;
+  border-style: solid;
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navBar {
+  display: block;
+  margin-left: 0px;
+  width: 58px;
+  height: 800px;
+  background-color: #3A92FF;
+  color: #3A92FF;
+
+}
+
+.fondo {
+  display: flex;
+  width: 1280px;
+  height: 800px;
+  background-color: white;
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
